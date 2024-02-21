@@ -16,18 +16,18 @@ package {
     default_applicable_licenses: ["Android-Apache-2.0"],
 }
 
-java_library {
-    name: "bluetooth-test-util-lib",
-    defaults: ["cts_defaults"],
-    static_libs: [
-        "PlatformProperties",
-        "androidx.test.ext.truth",
-        "bluetooth_flags_java_lib",
-        "compatibility-device-util-axt",
-        "junit",
-    ],
-    srcs: ["src/**/*.java"],
-    sdk_version: "test_current",
-    // Keep it public for now to avoid merge conflicts
-    visibility: ["//visibility:public"],
-}
+//java_library {
+//    name: "bluetooth-test-util-lib",
+//    defaults: ["cts_defaults"],
+//    static_libs: [
+//        "PlatformProperties",
+//        "androidx.test.ext.truth",
+//        "bluetooth_flags_java_lib",
+//        "compatibility-device-util-axt",
+//        "junit",
+//    ],
+//    srcs: ["src/**/*.java"],
+//    sdk_version: "test_current",
+//    // Keep it public for now to avoid merge conflicts
+//    visibility: ["//visibility:public"],
+//}
