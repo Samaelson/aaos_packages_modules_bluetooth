@@ -68,16 +68,17 @@ java_test_host {
     ],
 }
 
-python_binary_host {
-    name: "bumble_pandora_server",
-    main: "src/bumble_server.py",
-    srcs: [
-        "src/bumble_server.py",
-    ],
-    libs: [
-        "bumble-pandora",
-        "bumble_services_experimental-python",
-        "pandora-python",
-        "pandora_experimental-python",
-    ],
-}
+// external/pandora/avatar/Android.bp:37:1 <-- previous definition here
+//python_binary_host {
+//    name: "bumble_pandora_server",
+//    main: "src/bumble_server.py",
+//    srcs: [
+//        "src/bumble_server.py",
+//    ],
+//    libs: [
+//        "bumble-pandora",
+//        "bumble_services_experimental-python",
+//        "pandora-python",
+//        "pandora_experimental-python",
+//    ],
+//}

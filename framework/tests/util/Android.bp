@@ -16,6 +16,7 @@ package {
     default_applicable_licenses: ["Android-Apache-2.0"],
 }
 
+// cts/tests/tests/bluetooth/bluetoothTestUtilLib/Android.bp:19:1 <-- previous definition here
 //java_library {
 //    name: "bluetooth-test-util-lib",
 //    defaults: ["cts_defaults"],
